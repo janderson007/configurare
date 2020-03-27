@@ -1,2 +1,2 @@
-
-
+# configurare
+Configuration as code
