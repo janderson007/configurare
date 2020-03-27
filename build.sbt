@@ -30,7 +30,8 @@ lazy val `example-service` = project
       "com.typesafe.akka" %% "akka-stream" % "2.5.26"
     ),
     javaOptions ++= Seq(
-      "-Dconfigurare.root=src/main/etc/service"
+      "-Dconfigurare.root=src/main/etc/service",
+      "-Dconfigurare=Production"
     ),
     fork := true
     //Runtime / fork := true
